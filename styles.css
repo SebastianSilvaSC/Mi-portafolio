@@ -1,0 +1,55 @@
+body {
+  background-color: #1A1A1A;
+  background-image: url(imagenes/Pattern-PNG.png);
+}
+
+.bloque-principal {
+  text-align: center;
+  color:white
+}
+
+.foto-nombre-redes {
+  display: flex;
+  align-items:center;
+  justify-content: flex-start;
+  width: 500px;
+  margin: auto;
+  padding-left: auto;
+}
+
+.nombre {
+  font-size: 25px;
+  margin: auto;
+}
+  
+.foto {
+  align-content: left;
+
+}
+
+.redes {
+  display: flex;
+  justify-content: center ;
+  gap: 20px;
+  margin: 10px;
+}
+
+
+
+.descripcion {
+  width: 500px;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.lista-proyectos {
+  width: 500px;
+  color: white;
+  text-align: left;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 20px;
+}
